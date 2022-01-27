@@ -1,4 +1,4 @@
-const threeDotMenu = document.querySelector('.threeDotMenu');
+const threeBarMenu = document.querySelector('.threeBarMenu');
 const body = document.querySelector('body');
 const containerFluid = document.querySelector('.container-fluid');
 const cancel = document.querySelector('.cancel');
@@ -13,5 +13,5 @@ const removeMenu = () =>{
     containerFluid.style.left = "0";
 }
 
-threeDotMenu.addEventListener('click',showNavbar );
+threeBarMenu.addEventListener('click',showNavbar );
 cancel.addEventListener('click', removeMenu);

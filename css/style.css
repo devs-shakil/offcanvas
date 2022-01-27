@@ -4,10 +4,29 @@
     padding:0;
     box-sizing: border-box;
     font-family:'Roboto',sans-serif;
-    
+}
+.container-width{
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+}
+body{
+    transition: all 0.8s ease-in-out;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+}
+.color-white{
+    color:rgb(223, 222, 222);
+}
+.d-block{
+    display: block;
+}
+.pos-fixed{
+    position: fixed;
 }
 .nav-bar{
-    position: fixed;
     width: 400px;
     background-color: #042331;
     transition: all 0.8s ease-in-out;
@@ -27,7 +46,6 @@
     font-size: 25px;
 }
 .nav-bar h2 i{
-    color:white;
     margin-right:15px;
 }
 .nav-bar li a{
@@ -41,6 +59,7 @@
     display: block;
     border-top: 1px solid rgba(255,255,255,0.1);
     transition: 0.5s;
+    color:white;
 }
 .nav-items li a:hover{
 	padding-left:50px;
@@ -62,8 +81,7 @@
     border: none;
     font-size: 25px;
 }
-.threeDotMenu{
-    position: absolute;
+.threeBarMenu{
     top: 37px;
     left: 58px;
     padding: 7px 17px;
@@ -71,28 +89,102 @@
     background-color: #042331;
     border: none;
     border-radius: 5px;
+    color:white;
 }
-.body{
-    transition: all 0.8s ease-in-out;
-}
+
 .show .container-fluid{
-    width:100%;
-    background-color:green;
-    height:100%;
     position: relative;
 }
 .container-fluid{
-    width:800px;
+  transition:all 0.8s ease-in-out;
+  background-color:rgba(92, 207, 92, 0.5);
+  height:100%;
+  background-image: url(../images/hero-img.png);
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 
+.container{
+   height:100vh;
+   padding-top:150px;
+   }
 
-
-
-
-/* .container-fluid{
-    background-image:url(../images/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height:100vh;
+.text-wrapper blockquote{
+    line-height: 38px;
+    font-size: 19px;
+    margin-bottom:8px;
+}
+.prayer{
+    max-width: 85%;
     width:100%;
-} */
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:8rem;
+}
+.prayer-img {
+    width:48%;
+    padding:1%;
+}
+.prayer-img img{
+    width:100%;
+    height:100%;
+}
+.prayer-text{
+    width:48%;
+    padding:1%;
+    text-align: center;
+}
+.prayer-text li{
+    list-style-type: none;
+    margin-top:8px;
+}
+.bold{
+    text-decoration:bold;
+    font-size:25px;
+}
+.contact{
+    width:100%;
+    height:200px;
+    background-color:#44C666;
+}
+.contact-container{
+    top:35%;
+    position: relative;
+    
+}
+.width-contact{
+    align-items: center;
+    width:33%;
+    text-align: center;
+    justify-content: center;
+}
+.width-contact i{
+    font-size:30px;
+    padding:6px;
+}
+.width-contact h3{
+    padding:8px;
+}
+.mt-4{
+    margin-top:4rem;
+}
+.lec-img{
+    max-width:24%;
+    margin:1%;
+    width:100%;
+}
+.lec-img img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:5px;
+}
+.lec-img h5{
+    text-align: center;
+    font-size: 20px;
+}
+.lecturer h2{
+    text-align: center;
+    text-transform: uppercase;
+}
