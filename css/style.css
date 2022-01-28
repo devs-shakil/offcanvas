@@ -173,9 +173,20 @@ body{
     margin:1%;
     width:100%;
 }
-.lec-img img{
+.article{
+    max-width: 33%;
+    margin:1%;
+    width:100%;
+}
+.img{
     width:100%;
     height:100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:5px;
+}
+.ar-img{
+    width:100%;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding:5px;
@@ -187,4 +198,51 @@ body{
 .lecturer h2{
     text-align: center;
     text-transform: uppercase;
+}
+.article p{
+    justify-content: center;
+}
+.article a{
+    text-decoration: none;
+
+}
+.ar-social{
+    justify-content: center;
+    margin-top:2rem;
+}
+.ar-social li{
+    list-style-type: none;
+    text-align: center;
+    border:1px solid black;
+    margin:4px;
+    border-radius: 5px;
+    border:none;
+   
+}
+.ar-social a{
+    padding:10px;
+}
+.ar-social i{
+    font-size: 30px;
+    padding:5px;
+    color:white;
+}
+.fb{
+    background-color:#2D4373;
+}
+.youtube{
+    background-color:red;
+}
+.twitter{
+    background-color:#0087BA;
+}
+.ar-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer{
+    width:100%;
+    height:300px;
+    background-color: #213641;
 }
