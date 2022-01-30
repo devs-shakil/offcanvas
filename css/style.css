@@ -11,7 +11,7 @@
     margin-left:auto;
 }
 body{
-    transition: all 0.8s ease-in-out;
+    transition: all 0.5s ease-in-out;
     overflow-x: hidden;
 }
 .flex{
@@ -33,6 +33,9 @@ body{
     z-index: 1;
     left:-400px;
     height:100%;
+}
+.show{
+    transition: all 0.8s ease-in-out;
 }
 .show .nav-bar{
     left:0;
@@ -80,6 +83,7 @@ body{
     align-items: center;
     border: none;
     font-size: 25px;
+    transition:all 0.8s ease-in-out;
 }
 .threeBarMenu{
     top: 37px;
@@ -102,6 +106,7 @@ body{
   background-image: url(../images/hero-img.png);
   background-size: cover;
   background-repeat: no-repeat; 
+  left:0;
 }
 
 .container{
@@ -290,6 +295,16 @@ body{
 .footer-social-icon i{
     font-size:25px;
     color:white;
+
+}
+.scroll-up-btn{
+    display: flex;
+    justify-content:flex-end;
+    padding:20px;
+}
+#scrollToUp i{
+    font-size: 25px;
+    cursor: pointer;
 
 }
 /* Responsive design */
